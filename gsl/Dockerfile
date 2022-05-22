@@ -9,3 +9,6 @@ RUN apt-get update && \
     libgsl0-dev \
     libgsl25 libgslcblas0
 
+RUN apt-get update && \
+    apt-get install -y gdb
+
